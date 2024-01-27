@@ -2,11 +2,13 @@ h1 {
     color: rgb(255, 255, 255);
     background-color: red;
     font-size: larger;
+    background-size:1000;
 }
 
-body {
-    background-color: white;
-    color: black;
+h2 {
+    background-color: rgba(0, 0, 0, 0.727);
+    text-align: right;
+    color: white;
 }
 
 a {
@@ -24,15 +26,14 @@ body img {
     float: right;
 }
 
-h2 {
+h3 {
     color: black;
     text-align: left;
     font-size: large;
     font-weight: bold;
 }
 
-h3 {
-    border: 15;
+h4 {
     color: black;
     float: center;
     text-align: left;
@@ -44,8 +45,8 @@ p {
     width: 78%;
 }
 
-.footer {
+footer {
     color: white;
-    background-color: black;
-    width: 78%;
+    font-size: small;
+    background-color: rgba(0, 0, 0, 0.727);
 }
